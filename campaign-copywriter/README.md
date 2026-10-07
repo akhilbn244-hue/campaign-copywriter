@@ -12,7 +12,8 @@ Generates segment-personalised marketing emails from a customer CSV using the Ge
 3. Each segment is summarised (size, average spend, age, top city) so the AI knows who it is writing for, without sending personal data.
 4. A **system prompt** sets the brand rules; a **user prompt** gives the segment and the offer.
 5. **Gemini** replies in JSON (subject, preview text, body, call-to-action). The code checks the JSON and retries once if it is broken.
-6. Results appear on screen and can be downloaded as JSON or CSV.
+6. If Gemini is busy (503), the app waits and retries, then falls back to a backup model.
+7. Results appear on screen and can be downloaded as JSON or CSV.
 
 ## Tech used
 
@@ -36,7 +37,9 @@ Python · Gemini API (`google-genai`) · Streamlit · pandas · python-dotenv
 
 ## What I learned
 
-- _Write 3 bullets in your own words after the walkthrough._
+- **Segmentation is a business decision.** Raising the VIP threshold from 1,000 to 3,000 AED moved 3 of 30 customers into Regular, which changes who gets which message.
+- **Temperature controls creativity.** At 0 the emails were nearly identical on every run; at 1 each run gave fresh ideas. I use 0.7 for marketing copy.
+- **AI providers fail, so apps need a plan.** I hit a 503 "high demand" error and added retry with backoff plus a fallback model.
 
 ## What I'd build next
 
