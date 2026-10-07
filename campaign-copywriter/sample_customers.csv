@@ -1,0 +1,31 @@
+name,email,age,city,total_spend,orders,last_purchase
+Aisha Patel,aisha.patel@example.com,24,Dubai,4334,8,2026-09-18
+Omar Al Mansoori,omar.mansoori@example.com,24,Sharjah,776,4,2026-04-02
+Fatima Al Mansoori,fatima.mansoori@example.com,47,Dubai,312,1,2026-04-03
+Rahul Menon,rahul.menon@example.com,57,Dubai,1584,12,2026-04-21
+Priya Farouk,priya.farouk@example.com,58,Abu Dhabi,770,2,2026-03-08
+Layla Khan,layla.khan@example.com,29,Dubai,375,1,2026-06-05
+Yusuf Menon,yusuf.menon@example.com,56,Ajman,3627,7,2026-04-04
+Sara Farouk,sara.farouk@example.com,33,Abu Dhabi,834,6,2026-03-18
+Arjun Al Mansoori,arjun.mansoori@example.com,24,Sharjah,378,1,2026-04-16
+Mariam Menon,mariam.menon@example.com,50,Sharjah,3673,12,2026-06-12
+Khalid Haddad,khalid.haddad@example.com,36,Dubai,364,3,2026-07-10
+Noor Menon,noor.menon@example.com,42,Al Ain,343,1,2026-06-10
+Hassan Farouk,hassan.farouk@example.com,53,Abu Dhabi,2067,7,2026-04-25
+Zara Patel,zara.patel@example.com,47,Dubai,680,3,2026-08-03
+Vikram Menon,vikram.menon@example.com,41,Abu Dhabi,383,1,2026-08-12
+Huda Farouk,huda.farouk@example.com,25,Dubai,4837,13,2026-05-16
+Ali Al Mansoori,ali.mansoori@example.com,40,Ajman,928,2,2026-07-22
+Meera Al Suwaidi,meera.suwaidi@example.com,45,Ajman,235,1,2026-05-01
+Tariq Al Suwaidi,tariq.suwaidi@example.com,28,Abu Dhabi,2476,11,2026-03-07
+Lina Haddad,lina.haddad@example.com,36,Abu Dhabi,936,3,2026-06-28
+Sameer Al Suwaidi,sameer.suwaidi@example.com,31,Abu Dhabi,131,1,2026-06-18
+Reem Haddad,reem.haddad@example.com,56,Dubai,4626,8,2026-08-14
+Imran Patel,imran.patel@example.com,30,Dubai,416,5,2026-04-05
+Dana Nair,dana.nair@example.com,35,Dubai,427,1,2026-06-27
+Kabir Farouk,kabir.farouk@example.com,39,Dubai,3252,8,2026-04-14
+Salma Menon,salma.menon@example.com,57,Abu Dhabi,804,4,2026-04-23
+Faisal Menon,faisal.menon@example.com,24,Abu Dhabi,576,1,2026-09-25
+Anya Menon,anya.menon@example.com,46,Abu Dhabi,4360,12,2026-03-16
+Rashid Rahman,rashid.rahman@example.com,25,Dubai,375,2,2026-06-06
+Hiba Al Mansoori,hiba.mansoori@example.com,24,Dubai,264,1,2026-03-19

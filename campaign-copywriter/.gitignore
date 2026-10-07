@@ -1,0 +1,11 @@
+# NEVER upload your secret key
+.env
+
+# The installed toolboxes - anyone can recreate these with setup.bat
+.venv/
+__pycache__/
+*.pyc
+
+# Downloaded results
+campaign.json
+campaign.csv
